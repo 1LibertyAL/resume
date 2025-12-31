@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7706b7c-b164-4b9e-aaff-72fbb243bbb6" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2ee7535d-73d7-4fb1-a368-ae6a2d9c1553.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/841918.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Outer Wilds 2025.04.21 - 15.50.40.02 - frame at 0m0s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ab68e82a-369e-4815-ad1c-33fcf42e7a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/desinty-2-the-witch-queen-5k-fe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/desinty-2-the-witch-queen-5k-fe调转.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ff34c78e-778b-4a67-bdcf-58c5fe9974a6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiperImg/0bb647d7-1dcc-4820-b55b-74c297ccdf8a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiperImg/860c5fac51e95530e49e3f83d46cabd9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiperImg/c988920f-79eb-4e86-8cde-365f0ce03163.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/下载.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20250327193840.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="36sCVdll8Cm9XnLPlicdRpeBFoG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript 调试.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/javacode/untitled/resume/img/swiperImg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "通义灵码",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javacode\untitled\resume\img\swiperImg" />
+      <recent name="D:\javacode\untitled\resume\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javacode\untitled\resume\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/resume/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e7706b7c-b164-4b9e-aaff-72fbb243bbb6" name="更改" comment="" />
+      <created>1765785921001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765785921001</updated>
+      <workItem from="1765785922122" duration="185000" />
+      <workItem from="1765786473973" duration="58628000" />
+      <workItem from="1766734559459" duration="29455000" />
+      <workItem from="1766892553767" duration="2478000" />
+      <workItem from="1766895046808" duration="2635000" />
+      <workItem from="1766998663710" duration="2102000" />
+      <workItem from="1767002502634" duration="9555000" />
+      <workItem from="1767019891333" duration="2921000" />
+      <workItem from="1767172587945" duration="180000" />
+      <workItem from="1767172777839" duration="7978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

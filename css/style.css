@@ -1,0 +1,297 @@
+.no-js{
+  height:100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.93);
+  /*background-image:url("/img/2ee7535d-73d7-4fb1-a368-ae6a2d9c1553.png");*/
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+}
+head{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  header{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image:url("../img/desinty-2-the-witch-queen-5k-fe.jpg");
+    background-size:cover;
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    .border{
+      height: 10vh;
+      position:fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      border-top: 4px solid rgba(255,255,255,0.9);
+      border-bottom: 4px solid rgba(255,255,255,0.9);
+      z-index: -1;
+    }
+    nav{
+      height: 10vh;
+      width: 100%;
+      position:fixed;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 99;
+      ul{
+        width: 100%;
+        display: flex;
+        background-image:url("../img/Outer Wilds 2025.04.21 - 15.50.40.02 - frame at 0m0s.jpg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:200px 200px;
+        background-position: 50% 50%;
+        list-style: none;
+        pointer-events: auto;
+        li{
+          width: 100%;
+          margin-left: 5vw;
+          font-weight:700;
+          font-size: 1.7vw;
+          pointer-events: auto;
+        }
+      }
+      /*#user-list li {*/
+      /*  cursor: pointer;*/
+      /*  transition: all 0.3s ease;*/
+      /*}*/
+
+      /*#user-list li:hover {*/
+      /*  opacity: 0.8;*/
+      /*}*/
+
+      /*#user-list li.active {*/
+      /*  font-weight: bold;*/
+      /*  text-decoration: underline;*/
+      /*}*/
+    }
+    nav::before{
+      content: '';
+      background-position: 50% 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -100;
+      pointer-events: none;
+    }
+    .resume{
+      height:90vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:20vw;
+      -webkit-text-fill-color: transparent;
+      transition:transform 0.5s ease;
+      transform-origin: center center;
+    }
+  }
+  header::before{
+    content: '';
+    height:100vh;
+    background-size: cover;
+    background-image: inherit;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -99;
+    pointer-events: none;
+  }
+  main{
+    z-index:1;
+    display: flex;
+    flex-direction: column;
+    .box-1{
+      height: 100vh;
+      margin-top: 10vh;
+      background-image: url("../img/Outer Wilds 2025.04.21 - 15.50.40.02 - frame at 0m0s.jpg");
+      background-size:200px 200px;
+      background-position: 50% 50%;
+      -webkit-background-clip: text;
+      .information{
+        display: flex;
+        margin-top: 15vh;
+        margin-left: 5vw;
+        flex-direction: column;
+        h2{
+          -webkit-text-fill-color: transparent;
+          font-size: 5vw;
+        }
+        p{
+          z-index:-2;
+        }
+      }
+    }
+    .box-1::before{
+      content: '';
+      height:100vh;
+      background-size: cover;
+      background-color: #000000;
+      /*background-image:url("../img/");*/
+      background-position: 50% 50%;
+      position: absolute;
+      top: 105vh;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -99;
+      pointer-events: none;
+    }
+    .box-2{
+      height: 100vh;
+      display: flex;
+      background-image: url("../img/微信图片_20250327193840.jpg");
+      background-size:cover;
+      background-position: 50% 50%;
+      -webkit-background-clip: text;
+      .experience-img{
+        height: 90vh;
+        width: 60vw;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        left: 5%;
+        transform-style: preserve-3d;
+        transform: translateZ(800px);
+        transition: transform 0.8s;
+        overflow: visible;
+        .carousel-slide{
+          position: absolute;
+          inset: 0 0 0 0;
+          transform: translatez(450px);
+          overflow: hidden;
+          img{
+            height: 60vh;
+            width: 45vw;
+            object-position: center;
+            display: block;
+          }
+        }
+        .prev-btn,.next-btn{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(255, 255, 255, 0.8);
+          border: none;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          font-size: 24px;
+          cursor: pointer;
+          z-index: 100;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .prev-btn{
+          left: -30px;
+        }
+        .next-btn{
+          right: -30px;
+        }
+
+      }
+      .experience{
+        margin-top: 15vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-left: 70%;
+        background-image: url("../img/微信图片_20250327193840.jpg");
+        background-size:cover;
+        background-position: 50% 50%;
+        -webkit-background-clip: text;
+        z-index: -1;
+        h2{
+          font-size: 5vw;
+          -webkit-text-fill-color:transparent;
+        }
+        p{
+          /*-webkit-text-fill-color:transparent;*/
+          font-size: 1.1vw;
+        }
+        .framework{
+          line-height: 2.4;
+        }
+      }
+      .experience::before{
+        content: '';
+        /*height:100vh;*/
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 210vh;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -99;
+        pointer-events: none;
+      }
+    }
+    .box-2::before{
+      content: '';
+      height:100vh;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0);
+      position: absolute;
+      top: 210vh;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -99;
+    }
+    .box-3{
+      height: 100vh;
+      margin-top: 5vh;
+      background-image: url("../img/841918.jpg");
+      background-size:200px 200px;
+      background-position: 50% 50%;
+      -webkit-background-clip: text;
+      .layer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+        h2{
+          font-size: 5vw;
+          -webkit-text-fill-color:transparent;
+        }
+      }
+    }
+    .box-3::before{
+      content: '';
+      height:100vh;
+      background-size: cover;
+      background-color: #000000;
+      position: absolute;
+      top: 315vh;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -99;
+      pointer-events: none;
+    }
+  }
+}
