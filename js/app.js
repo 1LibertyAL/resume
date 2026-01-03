@@ -65,6 +65,12 @@ const selectedNavClick = (id) => {
     requestAnimationFrame(animation);
   }
 }
+
+//添加卡片样式
+const isMobile = () => {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+    window.innerWidth <= 768;
+}
 //卡片轮播图
 const track = document.querySelector('.experience-img')
 const cards = document.querySelectorAll('.carousel-slide')
@@ -75,7 +81,9 @@ let active = 0
 const totalCards = cards.length
 
 const  updateCarousel = () => {
-  const angle = 360/totalCards;
+
+  const angle = isMobile() ? 45 : 360/totalCards;
+  const translateZ = isMobile() ? 200 : 350;
   cards.forEach((card, index) => {
     let rotation;
     if(index >= active){
@@ -83,22 +91,35 @@ const  updateCarousel = () => {
     }else{
       rotation = (index + totalCards - active) * angle;
     }
-    card.style.transform = `rotateY(${rotation}deg) translateZ(350px)`
+    card.style.transform = isMobile() ? `rotateY(${rotation}deg) translateZ(${translateZ}px)` : `rotateY(${rotation}deg) translateZ(350px)`
     if(index !== active){
-      card.style.width = '50vw';
-      card.style.height = '40vh';
-      card.style.left = '20%';
-      card.style.top = '50%';
+      if(isMobile()){
+        card.style.width = '80vw';
+        card.style.height = '35vh';
+        card.style.left = '5%';
+        card.style.top = '50%';
+      }else{
+        card.style.width = '50vw';
+        card.style.height = '40vh';
+        card.style.left = '20%';
+        card.style.top = '50%';
+      }
       card.style.opacity = '0.6';
       card.style.filter = 'blur(2px)';
       card.style.zIndex = 1;
       card.style.objectFit = 'cover';
-
     }else{
-      card.style.width = '55vw';
-      card.style.height = '60vh';
-      card.style.left = '21%';
-      card.style.top = '37%';
+      if (isMobile()){
+        card.style.width = '80vw';
+        card.style.height = '35vh';
+        card.style.left = '35%';
+        card.style.top = '50%';
+      }else{
+        card.style.width = '55vw';
+        card.style.height = '60vh';
+        card.style.left = '21%';
+        card.style.top = '37%';
+      }
       card.style.opacity = '1';
       card.style.filter = 'none';
       card.style.zIndex = 20;
@@ -106,36 +127,16 @@ const  updateCarousel = () => {
       card.style.transform =`rotateY(10deg)`;
     }
   })
-  cards[active].style.zIndex = 20;
-  cards[active].style.transform = `rotateY(7deg) translateZ(650px)`;
-}
-const a = ()=>{
-  let stt = 0;
-  cards[active].style.transform = 'translateX(0) scale(1)';
-  cards[active].style.zIndex = 1;
-  cards[active].style.opacity = 1;
-  cards[active].style.margin = `0px 0px 0px 0px`;
-  for (let i = active + 1; i < cards.length; i++ ){
-    stt++
-    cards[i].style.transform =`translateX(${600 * stt}px) scale(${1 - 0.2 * stt})perspective(16px) rotateY(1deg)`;
-    cards[i].style.zIndex = -1;
-    cards[i].style.filter = `none`;
-    cards[i].style.opacity = stt > 2 ? '0' : '0.45';
-
-  }
-  stt = 0;
-  for (let i = active - 1; i >= 0; i-- ){
-    stt++
-    cards[i].style.transform =`translateX(-${600 * stt}px) scale(${1 - 0.2 * stt})perspective(16px) rotateY(-1deg)`;
-    cards[i].style.zIndex = -1;
-    cards[i].style.filter = `none`;
-    cards[i].style.opacity = stt > 2 ? '0' : '0.45';
+  if(isMobile()){
+    cards[active].style.transform = `rotateY(5deg) translateZ(400px)`;
+  } else {
+    cards[active].style.transform = `rotateY(7deg) translateZ(650px)`;
   }
 }
 document.addEventListener('DOMContentLoaded', () => {
   if (track && cards && cards.length > 0) {
     // 设置卡片3D样式
-    cards.forEach((card, index) => {
+    cards.forEach((card) => {
       card.style.position = 'absolute';
       card.style.marginLeft = '-150px';
       card.style.marginTop = '-150px';
