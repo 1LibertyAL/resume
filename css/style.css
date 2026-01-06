@@ -53,10 +53,10 @@ body header nav{
 body header nav ul{
   width: 100%;
   display: flex;
-  background-image:url("../img/Outer Wilds 2025.04.21 - 15.50.40.02 - frame at 0m0s.jpg");
+  background-image:url("../img/下载.jpg");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size:200px 200px;
+  background-size:200px;
   background-position: 50% 50%;
   list-style: none;
   pointer-events: auto;
