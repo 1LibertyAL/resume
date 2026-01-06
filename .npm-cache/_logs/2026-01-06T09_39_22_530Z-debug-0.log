@@ -1,0 +1,18 @@
+0 verbose cli D:\yuyan\node\node.exe D:\yuyan\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:D:\yuyan\node\node_modules\npm\npmrc
+4 silly config load:file:D:\javacode\untitled\resume\.npmrc
+5 silly config load:file:C:\Users\13202\.npmrc
+6 silly config load:file:D:\yuyan\node\node_global\etc\npmrc
+7 verbose title npm exec browserslist --update-db
+8 verbose argv "exec" "--" "browserslist" "--update-db"
+9 verbose logfile logs-max:10 dir:D:\javacode\untitled\resume\.npm-cache\_logs\2026-01-06T09_39_22_530Z-
+10 verbose logfile D:\javacode\untitled\resume\.npm-cache\_logs\2026-01-06T09_39_22_530Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd D:\javacode\untitled\resume
+13 verbose os Windows_NT 10.0.19045
+14 verbose node v22.16.0
+15 verbose npm  v10.9.2
+16 verbose exit 0
+17 info ok

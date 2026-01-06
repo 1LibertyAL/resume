@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e7706b7c-b164-4b9e-aaff-72fbb243bbb6" name="更改" comment="添加手机适应性">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/@0.0.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npm-cache/_cacache/index-v5/e9/9b/1f186c35fc54d4603e72fb472bf5529913795710d3c5af1b1006fd027158" beforeDir="false" afterPath="$PROJECT_DIR$/.npm-cache/_cacache/index-v5/e9/9b/1f186c35fc54d4603e72fb472bf5529913795710d3c5af1b1006fd027158" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_headers" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       <workItem from="1767416942287" duration="177000" />
       <workItem from="1767417132721" duration="19709000" />
       <workItem from="1767445372641" duration="2331000" />
-      <workItem from="1767686865740" duration="4585000" />
+      <workItem from="1767686865740" duration="7877000" />
     </task>
     <servers />
   </component>
