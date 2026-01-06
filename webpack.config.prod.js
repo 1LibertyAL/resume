@@ -5,9 +5,15 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = merge(common, {
   mode: 'production',
+  output: {
+    filename: 'js/[name].bundle.js',
+    publicPath: '/' // 确保资源路径正确
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html',
+      filename: 'index.html', // 输出到 dist 根目录
+      inject: 'body'
     }),
     new CopyPlugin({
       patterns: [

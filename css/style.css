@@ -296,7 +296,6 @@ body main .box-3::before{
     height: 70vh;
     margin-top: 5vh;
   }
-
   body main .box-1::before {
     height: 70vh;
     top: 105vh;
@@ -327,7 +326,6 @@ body main .box-3::before{
   body main .box-2 .experience-img .carousel-slide {
     height: 30vh;
   }
-
   body main .box-2 .experience-img .carousel-slide img {
     height: 30vh;
     width: auto;
