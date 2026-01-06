@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7706b7c-b164-4b9e-aaff-72fbb243bbb6" name="更改" comment="添加手机适应性">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ab68e82a-369e-4815-ad1c-33fcf42e7a16.png" beforeDir="false" />
-    </list>
+    <list default="true" id="e7706b7c-b164-4b9e-aaff-72fbb243bbb6" name="更改" comment="添加手机适应性" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +96,7 @@
       <workItem from="1767416942287" duration="177000" />
       <workItem from="1767417132721" duration="19709000" />
       <workItem from="1767445372641" duration="2331000" />
-      <workItem from="1767686865740" duration="3298000" />
+      <workItem from="1767686865740" duration="3805000" />
     </task>
     <servers />
   </component>
