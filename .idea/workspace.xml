@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7706b7c-b164-4b9e-aaff-72fbb243bbb6" name="更改" comment="添加手机适应性" />
+    <list default="true" id="e7706b7c-b164-4b9e-aaff-72fbb243bbb6" name="更改" comment="添加手机适应性">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/@0.0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +100,7 @@
       <workItem from="1767416942287" duration="177000" />
       <workItem from="1767417132721" duration="19709000" />
       <workItem from="1767445372641" duration="2331000" />
-      <workItem from="1767686865740" duration="3805000" />
+      <workItem from="1767686865740" duration="4585000" />
     </task>
     <servers />
   </component>
