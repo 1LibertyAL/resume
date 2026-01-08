@@ -17,6 +17,7 @@ body{
 }
 body header{
   height:100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -40,18 +41,19 @@ body header nav{
   height: 10vh;
   width: 100%;
   position:fixed;
+  display: flex;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 99;
 }
 body header nav ul{
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   background-image:url("../img/下载.jpg");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -59,13 +61,17 @@ body header nav ul{
   background-position: 50% 50%;
   list-style: none;
   pointer-events: auto;
+  /*border: 3px solid #ffffff;*/
 }
 body header nav ul li{
   width: 100%;
-  margin-left: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight:700;
-  font-size: 1.7vw;
+  font-size:1rem ;
   pointer-events: auto;
+  /*padding: 3%;*/
 }
 body header nav::before{
   content: '';
