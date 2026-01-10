@@ -27,7 +27,7 @@ body header{
   flex-direction: column;
   margin: 0;
   padding: 0;
-  background-image:url("../img/desinty-2-the-witch-queen-5k-fe_compressed.jpg");
+  background-image:url("https://cdn.jsdelivr.net/gh/1LibertyAL/resume/img/desinty-2-the-witch-queen-5k-fe_compressed.jpg");
   background-size:cover;
   background-position: 50% 50%;
   -webkit-background-clip: text;
@@ -59,7 +59,7 @@ body header nav ul{
   align-items: center;
   justify-content: center;
   padding: 0;
-  background-image:url("../img/preview.jpg");
+  background-image:url("https://cdn.jsdelivr.net/gh/1LibertyAL/resume/img/ff34c78e-778b-4a67-bdcf-58c5fe9974a6.png");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size:200px;
@@ -124,30 +124,50 @@ body main{
 body main .box-1{
   height: 100vh;
   margin-top: 10vh;
-  background-image: url("../img/Outer Wilds 2025.04.21 - 15.50.40.02 - frame at 0m0s.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/1LibertyAL/resume/img/Outer%20Wilds%202025.04.21%20-%2015.50.40.02%20-%20frame%20at%200m0s.jpg");
   background-size:200px 200px;
   background-position: 50% 50%;
   -webkit-background-clip: text;
 }
 body main .box-1 .information{
   display: flex;
+  flex-direction: column;
   margin-top: 15vh;
   margin-left: 5vw;
-  flex-direction: column;
 }
-body main .box-1 .information h2{
+body main .box-1 .information h1{
   -webkit-text-fill-color: transparent;
   font-size: 5vw;
 }
 body main .box-1 .information p{
   z-index:-2;
 }
+body main .box-1 .project{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-left: 75vw;
+}
+body main .box-1 .project h2{
+  -webkit-text-fill-color: transparent;
+}
+body main .box-1 .project a{
+  display: flex;
+  align-items: center;
+  padding: 0.5vw;
+  text-decoration: none;
+  color: white;
+}
+body main .box-1 .project a img{
+  max-height:4vh;
+  padding: 0.4vw;
+}
 body main .box-1::before{
   content: '';
   height:100vh;
   background-size: cover;
   background-color: #000000;
-  /*background-image:url("../img/");*/
   background-position: 50% 50%;
   position: absolute;
   top: 105vh;
@@ -159,9 +179,6 @@ body main .box-1::before{
 }
 body main .box-2{
   height: 100vh;
-  background-image: url("../img/微信图片_20250327193840.jpg");
-  background-size:cover;
-  background-position: 50% 50%;
   -webkit-background-clip: text;
 }
 body main .box-2 .experience-img{
@@ -221,18 +238,17 @@ body main .box-2 .experience{
   display: flex;
   flex-direction: column;
   margin-left: 70%;
-  background-image: url("../img/微信图片_20250327193840.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/1LibertyAL/resume/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250327193840.jpg");
   background-size:cover;
   background-position: 50% 50%;
   -webkit-background-clip: text;
   z-index: -1;
 }
-body main .box-2 .experience h2{
+body main .box-2 .experience h1{
   font-size: 5vw;
   -webkit-text-fill-color:transparent;
 }
 body main .box-2 .experience p{
-  /*-webkit-text-fill-color:transparent;*/
   font-size: 1.1vw;
 }
 body main .box-2 .experience .framework{
@@ -266,7 +282,7 @@ body main .box-2::before{
 body main .box-3{
   height: 100vh;
   margin-top: 5vh;
-  background-image: url("../img/841918.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/1LibertyAL/resume/img/841918.jpg");
   background-size:200px 200px;
   background-position: 50% 50%;
   -webkit-background-clip: text;
@@ -279,7 +295,7 @@ body main .box-3 .layer{
   justify-content: center;
   margin-top: 20vh;
 }
-body main .box-3 .layer h2{
+body main .box-3 .layer h1{
   font-size: 5vw;
   -webkit-text-fill-color:transparent;
 }
@@ -310,24 +326,35 @@ body main .box-3::before{
     background-position: 100% 50%;
   }
   body main .box-1{
-    height: 70vh;
+    height: 90vh;
     margin-top: 5vh;
   }
   body main .box-1::before {
-    height: 70vh;
+    height: 90vh;
     top: 105vh;
   }
-  body main .box-3 {
-    height: 60vh;
-    margin-top: 5vh;
+  body main .box-1 .information{
+    margin-top: 8vh;
+
   }
-  body main .box-3::before {
-    height: 70vh;
-    top: 270vh;
-    /*border: 3px solid rgba(255, 255, 255, 0.5);*/
+  body main .box-1 .information h1{
+    font-size: 2.5rem;
   }
-  body main .box-3 .layer p{
-    font-size: 2.5vw;
+  body main .box-1 .project{
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  body main .box-1 .project h2{
+    font-size: 5vw;
+
+  }
+  body main .box-1 .project .href{
+    position: absolute;
+    right: 5%;
+    margin-top:6vh;
+  }
+  body main .box-1 .project .href a{
+    padding-top: 5%;
   }
   body main .box-2{
     height: 100vh;
@@ -335,7 +362,7 @@ body main .box-3::before{
   }
   body main .box-2::before {
     height: 100vh;
-    top: 170vh;
+    top: 190vh;
   }
   body main .box-2 .experience-img {
     height: 50%;
@@ -343,7 +370,6 @@ body main .box-3::before{
     top: 35vh;
     left: 10vw;
   }
-
   body main .box-2 .experience-img .carousel-slide {
     height: 30vh;
   }
@@ -355,17 +381,35 @@ body main .box-3::before{
     height: 50vh;
     width: 70vw;
     position: absolute;
-    top: 182vh;
+    top: 204vh;
     right: 15vw;
   }
-  body main .box-2 .experience h2{
+  body main .box-2 .experience h1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 10vw;
+    font-size: 2.5rem;
   }
   body main .box-2 .experience p{
     font-size: 3vw;
+  }
+  body main .box-3 {
+    height: 60vh;
+    margin-top: 5vh;
+  }
+
+  body main .box-3::before {
+    height: 70vh;
+    top: 270vh;
+  }
+  body main .box-3 .layer {
+    margin-top:10vh;
+  }
+  body main .box-3 .layer h1{
+    font-size: 2.5rem;
+  }
+  body main .box-3 .layer p{
+    font-size: 2.5vw;
   }
 }

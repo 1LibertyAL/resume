@@ -5,11 +5,11 @@
 4 silly config load:file:D:\javacode\untitled\resume\.npmrc
 5 silly config load:file:C:\Users\13202\.npmrc
 6 silly config load:file:D:\yuyan\node\node_global\etc\npmrc
-7 verbose title npm run build
-8 verbose argv "run" "build"
-9 verbose logfile logs-max:10 dir:D:\javacode\untitled\resume\.npm-cache\_logs\2026-01-06T08_52_27_110Z-
-10 verbose logfile D:\javacode\untitled\resume\.npm-cache\_logs\2026-01-06T08_52_27_110Z-debug-0.log
-11 silly logfile done cleaning log files
+7 verbose title npm config list
+8 verbose argv "config" "list" "--json"
+9 verbose logfile logs-max:10 dir:D:\javacode\untitled\resume\.npm-cache\_logs\2026-01-09T10_59_49_372Z-
+10 verbose logfile D:\javacode\untitled\resume\.npm-cache\_logs\2026-01-09T10_59_49_372Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
 12 verbose cwd D:\javacode\untitled\resume
 13 verbose os Windows_NT 10.0.19045
 14 verbose node v22.16.0
