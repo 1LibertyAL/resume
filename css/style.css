@@ -21,7 +21,7 @@ body{
   overflow-x: hidden;
 }
 body header{
-  height:100vh;
+  height:100dvh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ body header{
   -webkit-background-clip: text;
 }
 body header .border{
-  height: 10vh;
+  height: 10dvh;
   position:fixed;
   top: 0;
   left: 0;
@@ -43,7 +43,7 @@ body header .border{
   z-index: -1;
 }
 body header nav{
-  height: 10vh;
+  height: 10dvh;
   width: 100%;
   position:fixed;
   display: flex;
@@ -91,7 +91,7 @@ body header nav::before{
   pointer-events: none;
 }
 body header .resume{
-  height:90vh;
+  height:90dvh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ body header .resume{
 }
 body header::before{
   content: '';
-  height:100vh;
+  height:100dvh;
   background-size: cover;
   background-image: inherit;
   background-position: 50% 50%;
@@ -122,8 +122,8 @@ body main{
   flex-direction: column;
 }
 body main .box-1{
-  height: 100vh;
-  margin-top: 10vh;
+  height: 100dvh;
+  margin-top: 10dvh;
   background-image: url("https://cdn.jsdelivr.net/gh/1LibertyAL/resume/img/Outer%20Wilds%202025.04.21%20-%2015.50.40.02%20-%20frame%20at%200m0s.jpg");
   background-size:200px 200px;
   background-position: 50% 50%;
@@ -132,7 +132,7 @@ body main .box-1{
 body main .box-1 .information{
   display: flex;
   flex-direction: column;
-  margin-top: 15vh;
+  margin-top: 5dvh;
   margin-left: 5vw;
 }
 body main .box-1 .information h1{
@@ -146,7 +146,7 @@ body main .box-1 .project{
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 5vh;
+  margin-top: 5dvh;
   margin-left: 75vw;
 }
 body main .box-1 .project h2{
@@ -160,17 +160,17 @@ body main .box-1 .project a{
   color: white;
 }
 body main .box-1 .project a img{
-  max-height:4vh;
+  max-height:4dvh;
   padding: 0.4vw;
 }
 body main .box-1::before{
   content: '';
-  height:100vh;
+  height:100dvh;
   background-size: cover;
   background-color: #000000;
   background-position: 50% 50%;
   position: absolute;
-  top: 105vh;
+  top: 105dvh;
   left: 0;
   bottom: 0;
   right: 0;
@@ -178,14 +178,13 @@ body main .box-1::before{
   pointer-events: none;
 }
 body main .box-2{
-  height: 100vh;
+  height: 100dvh;
   -webkit-background-clip: text;
 }
 body main .box-2 .experience-img{
-  aspect-ratio: 3 / 2;
-  height:90vh;
+  height:90dvh;
   width:60vw;
-  margin-top: 15vh;
+  margin-top: 15dvh;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -196,6 +195,7 @@ body main .box-2 .experience-img{
   transition: transform 0.8s;
   overflow: visible;
 }
+
 body main .box-2 .experience-img .carousel-slide{
   display: block;
   position: absolute;
@@ -204,7 +204,7 @@ body main .box-2 .experience-img .carousel-slide{
   overflow: hidden;
 }
 body main .box-2 .experience-img .carousel-slide img{
-  height: 60vh;
+  height: 60dvh;
   width: 45vw;
   object-position: center;
   display: block;
@@ -234,7 +234,7 @@ body main .box-2 .experience-img .next-btn{
 }
 body main .box-2 .experience{
   position: absolute;
-  top: 215vh;
+  top: 215dvh;
   display: flex;
   flex-direction: column;
   margin-left: 70%;
@@ -256,11 +256,11 @@ body main .box-2 .experience .framework{
 }
 body main .box-2 .experience::before{
   content: '';
-  /*height:100vh;*/
+  /*height:100dvh;*/
   background-size: cover;
   background-color: rgba(0, 0, 0, 0);
   position: absolute;
-  top: 210vh;
+  top: 210dvh;
   left: 0;
   bottom: 0;
   right: 0;
@@ -269,19 +269,19 @@ body main .box-2 .experience::before{
 }
 body main .box-2::before{
   content: '';
-  height:100vh;
+  height:100dvh;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0);
   position: absolute;
-  top: 210vh;
+  top: 210dvh;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: -99;
 }
 body main .box-3{
-  height: 100vh;
-  margin-top: 5vh;
+  height: 100dvh;
+  margin-top: 5dvh;
   background-image: url("https://cdn.jsdelivr.net/gh/1LibertyAL/resume/img/841918.jpg");
   background-size:200px 200px;
   background-position: 50% 50%;
@@ -293,7 +293,7 @@ body main .box-3 .layer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 20dvh;
 }
 body main .box-3 .layer h1{
   font-size: 5vw;
@@ -304,11 +304,11 @@ body main .box-3 .layer p{
 }
 body main .box-3::before{
   content: '';
-  height:100vh;
+  height:100dvh;
   background-size: cover;
   background-color: #000000;
   position: absolute;
-  top: 315vh;
+  top: 315dvh;
   left: 0;
   bottom: 0;
   right: 0;
@@ -318,23 +318,23 @@ body main .box-3::before{
 
 @media (max-width: 768px) {
   body header nav{
-    top: 1vh;
+    top: 1dvh;
   }
   body header nav ul li{
     font-size: 1rem;
-    background-size: 100vh;
+    background-size: 100dvh;
     background-position: 100% 50%;
   }
   body main .box-1{
-    height: 90vh;
-    margin-top: 5vh;
+    height: 100dvh;
+    margin-top: 5dvh;
   }
   body main .box-1::before {
-    height: 90vh;
-    top: 105vh;
+    height: 100dvh;
+    top: 105dvh;
   }
   body main .box-1 .information{
-    margin-top: 8vh;
+    margin-top: 8dvh;
 
   }
   body main .box-1 .information h1{
@@ -351,37 +351,48 @@ body main .box-3::before{
   body main .box-1 .project .href{
     position: absolute;
     right: 5%;
-    margin-top:6vh;
+    margin-top:6dvh;
   }
   body main .box-1 .project .href a{
     padding-top: 5%;
   }
   body main .box-2{
-    height: 100vh;
-    display: flex;
+    height: 100dvh;
+
   }
   body main .box-2::before {
-    height: 100vh;
-    top: 190vh;
+    height: 100dvh;
+    top: 210dvh;
+
   }
-  body main .box-2 .experience-img {
-    height: 50%;
+  body main .box-2 .experience-img{
+    height: 30dvh;
     width: 80vw;
-    top: 35vh;
+    top: 50%;
     left: 10vw;
   }
+  body main .box-2 .experience-img .carousel-list{
+    position: relative;
+    top: 10%;
+    left: 31vw;
+    display: flex;
+  }
   body main .box-2 .experience-img .carousel-slide {
-    height: 30vh;
+    height: 30dvh;
   }
   body main .box-2 .experience-img .carousel-slide img {
-    height: 30vh;
+    height: 30dvh;
     width: auto;
   }
+  body main .box-2 .experience-img .prev-btn,
+  body main .box-2 .experience-img .next-btn{
+    top: 50%;
+  }
   body main .box-2 .experience{
-    height: 50vh;
+    height: 50dvh;
     width: 70vw;
     position: absolute;
-    top: 204vh;
+    top: 214dvh;
     right: 15vw;
   }
   body main .box-2 .experience h1{
@@ -395,16 +406,16 @@ body main .box-3::before{
     font-size: 3vw;
   }
   body main .box-3 {
-    height: 60vh;
-    margin-top: 5vh;
+    height: 60dvh;
+    margin-top: 5dvh;
   }
 
   body main .box-3::before {
-    height: 70vh;
-    top: 270vh;
+    height: 60dvh;
+    top: 310dvh;
   }
   body main .box-3 .layer {
-    margin-top:10vh;
+    margin-top:10dvh;
   }
   body main .box-3 .layer h1{
     font-size: 2.5rem;
